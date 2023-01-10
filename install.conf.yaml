@@ -4,7 +4,30 @@
       force: true
 
 - link:
+    ~/.config/autorandr: autorandr
+    ~/.dwm/: autostart
+    ~/.config/awesome: awesome
+    ~/.config/dunst/: dunst
+    ~/.config/dwm/: dwm
+    ~/.config/kitty/: kitty
+    ~/.emacs.d/: emacs/.emacs.d
+    ~/.doom.d/: emacs/.doom.d
+    ~/.fehbg/: feh/.fehbg
     ~/.config/nvim/: nvim
+    ~/.config/picom/: picom
+    ~/.config/polybar/: polybar
+    ~/.config/ranger/: ranger
+    ~/.config/rofi/: rofi
+    ~/.config/starship/: starship
+    ~/.config/sxhkd/: sxhkd
+    ~/.vim/: vim
+    ~/.profile: x/.profile
+    ~/.xinitrc: x/.xinitrc
+    ~/.xprofile: x/.xprofile
+    ~/.xsession: x/.xsession
+    ~/.zshenv: x/.zshenv
+    ~/.xmonad/: xmonad
+    ~/.config/zsh/: zsh
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
