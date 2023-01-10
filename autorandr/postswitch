@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ $GDMSESSION == "xmonad" ]; then
+  $HOME/.fehbg && $HOME/.config/polybar/launch.sh
+elif [ $GDMSESSION == "dwm" ]; then
+  $HOME/.fehbg
+fi

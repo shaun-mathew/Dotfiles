@@ -1,0 +1,31 @@
+#switch dwm to title
+super + a; t
+  xsetroot -name "fsignal:1"
+
+#switch dwm to fcoat
+super + a; f
+  xsetroot -name "fsignal:2"
+
+#switch dwm to monocce
+super + a; m
+  xsetroot -name "fsignal:3"
+
+#switch dwm to deck
+super + a; d
+  xsetroot -name "fsignal:4"
+
+#switch dwm to centeredmaster
+super + a; c
+  xsetroot -name "fsignal:5"
+
+#switch dwm to bottom stack
+super + a; b
+  xsetroot -name "fsignal:6"
+
+#next layout
+super + a; a
+  xsetroot -name "fsignal:7"
+
+super + Escape
+	pkill -USR1 -x sxhkd; \
+	notify-send "sxhkd restarted"

@@ -1,0 +1,2 @@
+#!/bin/sh
+[ -f ~/.xprofile ] && source ~/.xprofile
