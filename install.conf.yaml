@@ -6,7 +6,6 @@
 - link:
     ~/.config/autorandr: autorandr
     ~/.dwm/: autostart
-    ~/.config/dwmblocks/: dwmblocks
     ~/.config/awesome: awesome
     ~/.config/dunst/: dunst
     ~/.config/dwm/: dwm
