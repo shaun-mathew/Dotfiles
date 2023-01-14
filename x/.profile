@@ -3,7 +3,7 @@ export PATH="$PATH:/home/shaun/.local/share/JetBrains/Toolbox/scripts"
 export PATH="$PATH:/home/shaun/.nix-profile/bin"
 
 
-# xrandr --output eDP-1-1 --auto --primary
+xrandr --output eDP-1-1 --auto --primary
 # if [ "$XDG_SESSION_TYPE" != "wayland" ]; then
 # fi
 
