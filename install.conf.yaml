@@ -28,6 +28,7 @@
     ~/.zshenv: x/.zshenv
     ~/.xmonad/: xmonad
     ~/.config/zsh/: zsh
+    ~/.config/dwmblocks/: dwmblocks
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
