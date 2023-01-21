@@ -29,6 +29,7 @@
     ~/.xmonad/: xmonad
     ~/.config/zsh/: zsh
     ~/.config/dwmblocks/: dwmblocks
+    ~/.config/vifm/: vifm
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
