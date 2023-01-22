@@ -30,6 +30,7 @@
     ~/.config/zsh/: zsh
     ~/.config/dwmblocks/: dwmblocks
     ~/.config/vifm/: vifm
+    ~/.config/tmux/: tmux
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
